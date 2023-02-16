@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="main">
+        <section class="login">
+            <div class="tela__login">
+                <h1 class="titulo">LOGIN</h1>
+                <div class="formulario__login">
+                    <div class="forms">
+                        <label for="Email"></label>
+                        <input type="text" class="form__entrada" id="entrada__login" placeholder="Digite seu email" required>
+                    </div>
+                    <div class="forms">
+                        <label for="Email"></label>
+                        <input type="text" class="form__entrada" id="senha__login" placeholder="Digite sua senha" required>
+                    </div>
+                    <div class="forms">
+                        <label for="Email"></label>
+                        
+                    </div>
+                    <button type="submit" class="botao__login" onclick="logar()">logar</button>
+                    <button type="submit" class="botao__cadastro" onclick="cadastro()">Cadastre-se</button>
+                    
+                </div>
+            </div>
+            <div class="tela__banner">
+                <div class="tela__cadastro">
+                    <h1 id="tituloo">CADASTRO</h1>
+                    <button class="fechar__cadastro" onclick="fechartelacadastro()">X</button>
+                    <div class="formulario__login">
+                        <div class="forms">
+                            <label for="Email"></label>
+                            <input type="text" class="form-entrada__cadastro" id="email__cadastro" placeholder="Digite seu email" required>
+                        </div>
+                        <div class="forms">
+                            <label for="Email"></label>
+                            <input type="text" class="form-entrada__cadastro" id="senha__cadastro" placeholder="Digite sua senha" required>
+                        </div>
+                        <div class="forms">
+                            <label for="Email"></label>
+                            <input type="text" class="form-entrada__cadastro" id="senha__cadastro2" placeholder="Digite novamente sua senha" required>
+                        </div>
+                        <button type="submit" class="botao__cadastrar" onclick="realizarCadastro()">Cadastrar</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
